@@ -19,13 +19,13 @@ If Rscript complains about /R/site-library not being writable, run `R` from comm
 # Running the scripts
 cd to the folder containing the exported txt files and the R scripts (HRV_parse.R, HRV_cal.R).
 
-In order to parse the exported HRV files to a csv file run: 
+Run the following command to parse the exported HRV files to csv file: 
 
 `Rscript HRV_parse.R`
 
 The output (HRV_parsed.csv) will contain the HRV statistics for each date. If multiple measurements were done on a given date, only the first one - the "Morning HRV reading" - is used.
 
-To create a heatmap calendar run:
+Run the following command to create the heatmap calendar:
 
 `Rscript HRV_cal.R HRV_parsed.csv rMSSD 10 80`
 
