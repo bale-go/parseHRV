@@ -1,7 +1,7 @@
 # parseHRV
 R scripts to parse and plot heart rate variability (HRV) data.
 
-It was tested on exported data from Elite HRV.
+It was tested with exported data from Elite HRV.
 
 [RHRV](https://rhrv.r-forge.r-project.org/) is utilized to calculate time-domain and frequency-domain statistics on the filtered RR data.
 
@@ -10,16 +10,16 @@ The generated heatmap calendar is based on Ryan Plant's implementation: https://
 # Installation
 Ubuntu requires the installation of r-cran-rgl package. (`sudo apt-get install r-cran-rgl`)
 
-Move the R scripts to the folder containing the exported txt files. (e.g. export/x@email.com/)
+Move R scripts (HRV_parse.R, HRV_cal.R) to the folder containing the exported txt files. (e.g. export/x@email.com/)
 
-The R scripts will install the required libraries ("RHRV", "lubridate", "tidyverse", "zoo", "viridis") on the first run. It might take a few minutes.
+R scripts will install the required libraries ("RHRV", "lubridate", "tidyverse", "zoo", "viridis") on the first run. It might take a few minutes.
 
 If Rscript complains about /R/site-library not being writable, run `R` from command line and in R run: `install.packages("RHRV", dependencies = TRUE)`
 
 # Running the scripts
-cd to the folder containing the exported txt files.
+cd to the folder containing the exported txt files and the R scripts (HRV_parse.R, HRV_cal.R).
 
-In order to parse the exported HRV files in a csv file run:
+In order to parse the exported HRV files in a csv file run.
 
 `Rscript HRV_parse.R`
 
