@@ -1,5 +1,5 @@
 # parseHRV
-R scripts to parse and plot heart rate variability (HRV) data.
+R scripts to parse and plot the change in heart rate variability (HRV) statistics over long time frames.
 
 It was tested with exported data from Elite HRV.
 
@@ -19,15 +19,17 @@ If Rscript complains about /R/site-library not being writable, run `R` from comm
 # Running the scripts
 cd to the folder containing the exported txt files and the R scripts (HRV_parse.R, HRV_cal.R).
 
-In order to parse the exported HRV files in a csv file run.
+In order to parse the exported HRV files to a csv file run. 
 
 `Rscript HRV_parse.R`
+
+The output (HRV_parsed.csv) will contain the HRV statistics for each date. If multiple measurements were done on a given date, only the first one - the "Morning HRV reading" - is used.
 
 To create a heatmap calendar run:
 
 `Rscript HRV_cal.R HRV_parsed.csv rMSSD 10 80`
 
-HRV_cal takes 4 arguements:
+HRV_cal.R takes 4 arguements:
 1. file name (e.g. HRV_parsed.csv)
 1. name of one variable (e.g. eHRV, HR, SDNN, pNN50, SDSD, rMSSD, IRRR, MADRR, TINN, HRVi, LF, HF, LFHF)
 1. min of range
