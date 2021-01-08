@@ -8,11 +8,13 @@ It was tested on exported data from Elite HRV.
 The generated heatmap calendar is based on Ryan Plant's implementation: https://ryanplant.netlify.app/post/calendar-heatmaps-in-ggplot/
 
 # Installation
-Ubuntu requires the installation r-cran-rgl package. (`sudo apt-get install r-cran-rgl`)
+Ubuntu requires the installation of r-cran-rgl package. (`sudo apt-get install r-cran-rgl`)
 
 Move the R scripts to the folder containing the exported txt files. (e.g. export/x@email.com/)
 
 The R scripts will install the required libraries ("RHRV", "lubridate", "tidyverse", "zoo", "viridis") on the first run. It might take a few minutes.
+
+If Rscript complains about /R/site-library not being writable, run `R` from command line and in R run: `install.packages("RHRV", dependencies = TRUE)`
 
 # Running the scripts
 cd to the folder containing the exported txt files.
