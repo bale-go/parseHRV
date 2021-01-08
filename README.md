@@ -8,7 +8,7 @@ It was tested on exported data from Elite HRV.
 The generated heatmap calendar is based on Ryan Plant's implementation: https://ryanplant.netlify.app/post/calendar-heatmaps-in-ggplot/
 
 # Installation
-Ubuntu requires the r-cran-rgl package. (sudo apt-get install r-cran-rgl)
+Ubuntu requires the r-cran-rgl package. (`sudo apt-get install r-cran-rgl`)
 
 Move the R scripts to the folder containing the exported txt files. (e.g. export/x@email.com/)
 
