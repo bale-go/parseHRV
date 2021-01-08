@@ -12,7 +12,7 @@ Ubuntu requires the installation of r-cran-rgl package. (`sudo apt-get install r
 
 Move R scripts (HRV_parse.R, HRV_cal.R) to the folder containing the exported txt files. (e.g. export/x@email.com/)
 
-R scripts will install the required libraries ("RHRV", "lubridate", "tidyverse", "zoo", "viridis") on the first run. It might take a few minutes.
+R scripts will install the required R libraries ("RHRV", "lubridate", "tidyverse", "zoo", "viridis") on the first run. It might take a few minutes.
 
 If Rscript complains about /R/site-library not being writable, run `R` from command line and in R run: `install.packages("RHRV", dependencies = TRUE)`
 
