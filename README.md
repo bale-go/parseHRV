@@ -19,7 +19,7 @@ If Rscript complains about /R/site-library not being writable, run `R` from comm
 # Running the scripts
 cd to the folder containing the exported txt files and the R scripts (HRV_parse.R, HRV_cal.R).
 
-In order to parse the exported HRV files to a csv file run. 
+In order to parse the exported HRV files to a csv file run: 
 
 `Rscript HRV_parse.R`
 
