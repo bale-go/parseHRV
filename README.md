@@ -1,7 +1,7 @@
 # parseHRV
 R scripts to parse and plot the change in heart rate variability (HRV) statistics over long time frames.
 
-It was tested with exported data from Elite HRV.
+It was tested with exported data from Elite HRV. ([EliteHRV](https://elitehrv.com/))
 
 [RHRV](https://rhrv.r-forge.r-project.org/) is utilized to calculate time-domain and frequency-domain statistics on the filtered RR data.
 
