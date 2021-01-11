@@ -1,7 +1,7 @@
 # parseHRV
-R scripts to parse and plot the change in heart rate variability (HRV) statistics over long time frames.
+R scripts for parsing and plotting the change in heart rate variability (HRV) statistics over long time frames.
 
-It was tested with exported data from [EliteHRV](https://elitehrv.com/) and [Heart Rate Monitor](https://play.google.com/store/apps/details?id=com.bmi.hr_monitor) from BM innovations GmbH. 
+They were tested with exported data from [EliteHRV](https://elitehrv.com/) and [Heart Rate Monitor](https://play.google.com/store/apps/details?id=com.bmi.hr_monitor) (BM innovations GmbH). 
 
 [Heart Rate Monitor](https://play.google.com/store/apps/details?id=com.bmi.hr_monitor) is a simple application that can record heart rate and ΔRR. It is a great choice if you do not want to expose your heart rate data to third parties. It works without Google Play Services and it does not require you to create an account.
 
