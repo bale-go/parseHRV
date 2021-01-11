@@ -73,6 +73,7 @@ if (args[1] == "HRmonitor") {
         mat[i,13] <- mean(hrv.data$FreqAnalysis[[1]]$LF)
         mat[i,14] <- mean(hrv.data$FreqAnalysis[[1]]$HF)
         mat[i,15] <- mean(hrv.data$FreqAnalysis[[1]]$LFHF)
+        file.remove(flitxt)
     }
 } else {
     #load file into data frame
