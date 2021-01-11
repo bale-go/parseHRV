@@ -12,7 +12,7 @@ The generated heatmap calendar is based on Ryan Plant's implementation: https://
 # Installation
 Ubuntu requires the installation of r-cran-rgl package. (`sudo apt-get install r-cran-rgl`)
 
-Move R scripts (HRV_parse.R, HRV_cal.R) to the folder containing the exported txt files. (e.g. export/x@email.com/)
+Move R scripts (HRV_parse.R, HRV_cal.R) to the folder containing the exported txt or csv files. (e.g. export/x@email.com/)
 
 R scripts will install the required R libraries ("RHRV", "lubridate", "tidyverse", "zoo", "viridis") on the first run. It might take a few minutes.
 
