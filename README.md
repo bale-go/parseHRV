@@ -1,5 +1,5 @@
 # parseHRV
-R scripts for parsing and plotting the change in heart rate variability (HRV) statistics over long time frames.
+R scripts for parsing and plotting the change in heart rate variability (HRV) statistics over multiple days.
 
 They were tested with exported data from [EliteHRV](https://elitehrv.com/) and [Heart Rate Monitor](https://play.google.com/store/apps/details?id=com.bmi.hr_monitor) (BM innovations GmbH). 
 
