@@ -28,11 +28,11 @@ if (args[1] == "HRmonitor") {
     lenvector <- length(vector)
     
     
-    mat <- matrix(0, lenfli, 15)
+    mat <- matrix(0, lenvector, 15)
     colnames(mat) <- c("date","time","eHRV","HR","SDNN","pNN50","SDSD","rMSSD","IRRR","MADRR","TINN","HRVi","LF","HF","LFHF")
     
     # calculate time-domain and frequency-domain statistics on the filtered RR data
-    for (i in 1:lenfli) {
+    for (i in 1:lenvector) {
         strip <- c()
         
         con = file(fli[i], "r")
