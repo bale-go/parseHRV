@@ -35,7 +35,7 @@ if (args[1] == "HRmonitor") {
     for (i in 1:lenvector) {
         strip <- c()
         
-        con = file(fli[i], "r")
+        con = file(fli[vector[i]], "r")
         while ( TRUE ) {
             line = readLines(con, n = 1)
             if ( line == "" ) {
