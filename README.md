@@ -29,7 +29,7 @@ Or if you exported data from [Heart Rate Monitor](https://play.google.com/store/
 
 `Rscript HRV_parse.R HRmonitor`
 
-The output (HRV_parsed.csv) will contain the HRV statistics (e.g. eHRV, HR, SDNN, pNN50, SDSD, rMSSD, IRRR, MADRR, TINN, HRVi, LF, HF, LFHF) for each date. If multiple measurements were done on a given date, only the first one - the "Morning HRV reading" - is used.
+The output (HRV_parsed.csv) will contain the HRV statistics (e.g. [eHRV](https://help.elitehrv.com/article/54-how-do-you-calculate-the-hrv-score), [HR](https://en.wikipedia.org/wiki/Heart_rate), [SDNN, pNN50, SDSD, rMSSD, IRRR, MADRR, TINN, HRVi, LF, HF, LFHF](https://rhrv.r-forge.r-project.org/tutorial/tutorial.pdf)) for each date. If multiple measurements were done on a given date, only the first one - the "Morning HRV reading" - is used.
 
 Run the following command to create the heatmap calendar of rMSSD:
 
